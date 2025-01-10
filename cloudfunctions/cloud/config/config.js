@@ -6,8 +6,8 @@ module.exports = {
 	ADMIN_NAME: 'admin', // 管理员账号（5-30位)
 	ADMIN_PWD: '123456', // 管理员密码（5-30位) 
 
-	APPID: 'wx4e22a2efdf4efb81', // 小程序appid
-	APPSECRET: '331552170de57661d8a84b4c84672f3d', // 小程序secret
+	APPID: 'wx5c04e4f9ab5639ec', // 小程序appid
+	APPSECRET: 'd9806aa20e64c8addc5554be5d9348af', // 小程序secret
 
 	// ##################################################################  
 	PID: 'A00',  
