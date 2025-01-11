@@ -1,5 +1,5 @@
 {
-  "appid": "wx4e22a2efdf4efb81",
+  "appid": "wx5c04e4f9ab5639ec",
   "compileType": "miniprogram",
   "libVersion": "3.7.4",
   "packOptions": {
@@ -8,10 +8,10 @@
   },
   "setting": {
     "coverView": true,
-    "es6": true,
+    "es6": false,
     "postcss": true,
     "minified": true,
-    "enhance": true,
+    "enhance": false,
     "showShadowRootInWxmlPanel": true,
     "packNpmRelationList": [],
     "babelSetting": {

@@ -41,5 +41,5 @@
    ADMIN_TOKEN_EXPIRE: 3600 * 2, //管理员过期时间2小时有效 秒  
    
    // BASE URL
-   BASE_URL: "http://localhost:3000/api"
+   BASE_URL: "https://houseclean.xn--vuqw0e54ixuh2wab7xjjnvyb7x0m.online/api"
  }

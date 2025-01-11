@@ -1,23 +1,11 @@
 const setting = require('./setting/setting.js');
 const cloudHelper = require('./helper/cloud_helper.js');
-function wxLogin(){
-  return new Promise(function(reslove,reject){
-    wx.login({
-      success (res) {
-        reslove(res.code);
-      }
-    })
-  })
-}
+
 
 App({
 	onLaunch: async function (options) {
     console.log("APP Launch")
-    let code = await wxLogin()
-    console.log("code=>",code)
-    let openid = await cloudHelper.callCloudData('user/openid', {}, {code: code});
-    await wx.setStorage('openid', openid)
-
+    
 		if (!wx.cloud) {
 			console.error('请使用 2.2.3 或以上的基础库以使用云能力')
 		} else {
